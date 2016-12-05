@@ -19,7 +19,7 @@ public class Admin implements Serializable{
 			return id;
 		}
 
-
+   //บวบว
 		public void setId(int id) {
 			this.id = id;
 		}
