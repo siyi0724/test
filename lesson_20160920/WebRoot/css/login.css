@@ -1,0 +1,64 @@
+/**
+ * Created by swii on 2016/9/18.
+ */
+/*右侧登录框相关样式*/
+/*账号登陆样式*/
+#login{
+	text-align:center;
+	font-size:18px;
+    display:inline-block;
+    height:45px;
+    width:50%;
+    line-height:1.2;
+	color:#666;
+    padding-top:20px;
+	margin-bottom:10px;	
+}
+/*自定义表单样式*/
+.right-content ul{
+    width:360px;
+    border:solid 1px gainsboro;
+    list-style: none;
+    color:black;
+    float:left;
+    margin-left:70px;
+}
+.right-content li{
+	height:50px;
+	margin-left:35px;
+}
+
+#login-username,#login-pwd{
+	text-align:left;
+	padding-top:10px;
+}
+#login-pwd{
+	display:inline-block;
+}
+
+#login-help{
+	text-align:right;
+	padding-right:53px;
+}
+#login-fpwd{
+	margin-left:143px;
+}
+/*输入框样式*/
+input{
+    display: inline-block;
+    width:270px;
+    height:35px;
+    border:1px solid gainsboro;
+    padding-left:10px;
+    color:gray;
+}
+
+/*提交按钮样式*/
+#submit{
+    background-color:RGB(255,143,43);
+    width:270px;
+    height:35px;
+    color:white;
+    border:0;
+	cursor:pointer;
+}

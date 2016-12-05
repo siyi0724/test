@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--引入外部主样式-->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!--引入导航菜单-->
+    <link rel="stylesheet" href="css/dir.css"/>
+    <!--引入登录框样式-->
+    <link rel="stylesheet" href="css/login.css"/>
+    <!--引入登录校验脚本-->
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+    <div id="header">
+        <!--菜单div-->
+        <div id="menuDiv">
+            <!--栏目名称和链接-->
+            <a href="#">首页</a>|
+            <a href="#">找课</a>|
+            <a href="#">师资</a>|
+            <a href="#">视频</a>|
+            <a href="#">vip</a>|
+            <a href="#">关于</a>
+        </div>
+        
+    </div>
+    <div id="main">
+        <div class="left-content">
+        <!--头部左侧logo-->
+        <div id="logo"><img src="img/logo.jpg"/></div>
+        </div>
+        <div class="right-content">
+            <form action="" method="post" onsubmit="return checkForm()">
+                <ul>
+                    <li id="login">账号登录</li>
+                    <li id = "login-username">
+                         用户名
+                    </li>                    
+                    <li>
+                        <input type="text" id="userName" name="username" placeholder="用户名\邮箱\手机号">
+                    </li>
+                    <li><span id="login-pwd">密&nbsp;&nbsp;&nbsp;码</span>
+                        <span id="login-fpwd">忘记密码？</span>
+                    </li>
+                    <li>
+                        <input type="password" id="pwd" name="pwd" placeholder="请输入密码">
+                    </li>
+                    <li id = "login-help">登录帮助</li><input type="checkbox" name="autoLogin">自动登陆
+                    <li>
+                        <input type="submit" id="submit" value="立即登录">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div id="foot">
+        <hr/>
+        <p>Copytright 2008-2013 上海育创网络科技有限公司.    备案号:沪ICP备10015848号-5    上海浦东公安分局备案编号:3101150335558824    客户热线:400-018-6216 </p>
+        <p>上海育创网络科技有限公司申明:我公司所有培训课程版权均归北风网所有,如翻录、破解、盗版必将通过法律途径解决 </p>
+    </div>
+</body>
+</html>

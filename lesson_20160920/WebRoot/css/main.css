@@ -1,0 +1,61 @@
+/**
+ * Created by swii on 2016/9/18.
+ */
+/*设置页面总体样式*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: '微软雅黑';
+}
+/*logo样式*/
+#logo{
+    width:95px;
+    height:63px;
+	padding-left:400px;
+}
+/*设置盒子样式*/
+#header,#main,#foot{
+    width:100%;
+    /*border:1px solid red;*/
+    margin:auto;
+}
+#header{
+    height:63px;
+    vertical-align: middle;
+    text-align: center;
+}
+#main{
+    min-height:400px;
+}
+/*设置页脚样式*/
+#foot{
+    height:105px;
+    padding-top:20px;
+    text-align: center;
+    font-size:14px;
+    color:gainsboro;
+}
+hr{
+    margin:10px auto;
+    border:0;
+    width:80%;
+    border-top:1px solid gainsboro;
+}
+#foot p{
+    margin:3px;
+}
+.left-content,.right-content{
+    float:left;
+    min-height:400px;
+}
+.left-content{
+    width:50%;
+}
+
+.right-content{
+    width:50%;
+    padding-top:20px;
+    padding-left:10px;
+}
+
