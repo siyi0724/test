@@ -7,7 +7,7 @@ public class Admin implements Serializable{
 	    private int id;
         private String name;
         private String pwd;
-        
+        /*±ä¸ü*/
         
 		/*public Admin(String name, String pwd) {
 			this.name = name;
